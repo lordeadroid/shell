@@ -6,8 +6,8 @@ int main(void) {
   char command[255];
 
   while (true) {
-    cout<<"$ ";
-    cin>>command;
-    cout<<command<<endl;
+    cout << "$ ";
+    cin >> command;
+    cout << command << endl;
   }
 }
