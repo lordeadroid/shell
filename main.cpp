@@ -3,11 +3,11 @@
 using namespace std;
 
 int main(void) {
-  char command[255];
+  string command;
 
   while (true) {
     cout << "$ ";
-    cin >> command;
+    getline(cin, command);
     cout << command << endl;
   }
 }
