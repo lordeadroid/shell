@@ -10,4 +10,6 @@ int main(void) {
     getline(cin, command);
     cout << command << endl;
   }
+
+  return 0;
 }
